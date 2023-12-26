@@ -1,0 +1,196 @@
+/*Zomato Clone*/
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flexbox{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+}
+
+.logo{
+    height: 43px;
+    align-items: center;
+}
+
+.btn-sl{
+    margin-right: 12px;
+}
+
+.input{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.login{
+    background-color: #fff;
+    color: rgb(61, 60, 60);
+    border: none;
+    font-size: 28px;
+    margin-left: 317px;
+}
+
+.signup{
+    background-color: #fff;
+    color: rgb(61, 60, 60);
+    border: none;
+    font-size: 28px;
+}
+
+.brands-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    gap: 12px;
+}
+
+.brand{
+    text-align: center;
+}
+
+.brand-user{
+    height: 120px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.brand-user:hover{
+    transform: rotate(4deg);
+}
+
+.name{
+    font-size: 26px;
+}
+
+.brand-info{
+    font-size: 40px;
+    margin-left: 29px;
+    color: rgb(89 72 72);
+    font-weight: 500;
+}
+
+.upward-symbol{
+    color: #fff;
+    background-color: rgb(243, 94, 94);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    margin: 10px;
+    font-size: 58px;
+    margin-right: 14px;
+    border: none;
+    transition: .3s;
+}
+
+.upward-symbol:hover{
+    width: 90px;
+}
+
+.card{
+    width: 480px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.food-name{
+    font-size: 19px;
+    color: gray;
+    margin-top: -18px;
+}
+
+.price{
+    font-size: 19px;
+    color: gray;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;    
+    margin-left: 71px;
+    font-size: 13px;
+}
+
+.icon{
+    margin-right: 8px;
+}
+
+.rate-timings{
+    margin-top: 1px;
+}
+
+.food-info{
+    margin-bottom: 10px;
+}
+
+.items{
+    margin-top: -8px;
+}
+
+.time{
+    font-size: 19px;
+    color: rgb(56, 54, 54);
+    margin-left: 62px;
+}
+
+i{
+    margin-left: 3px;
+}
+
+i{
+    margin-right: -4px;
+}
+
+.card-header{
+    position: relative;
+}
+
+.discount{
+    background-color: rgb(26, 103, 218);
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 15px;
+   /* bottom: 0;*/
+} 
+
+
+
